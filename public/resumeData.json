@@ -1,0 +1,57 @@
+{
+  "main": {
+    "names": ["Roy Guo", "Christine Sheng","Mingcheng Zhu"],
+    "projectName":"Powder Master",
+    "summary":"Powder Master is a 2D physics simulation game. Players act as gods who create different types of particles through mouse clicking and dragging. They will explore different kinds of interactions between the particles. \n ",
+    "description": [
+      "Our goal is to produce a 2D simulation game modeling various “powders” that can float around in a fluid as well as interact with each other. This will involve a grid based fluid simulation using Navier-Stokes equations, as well as a particle system for the powders. The particles will interact with each other using a simple cellular automata.\n",
+      "Several challenges we will have to solve include how to simulate interactions between our particle system and our grid based system, and how to optimize the simulation so that it can be run in real time as a game. The simulation will likely have to deal with tens of thousands of particles, as well as thousands of cells in our fluid model, so there will have to be trade offs made in how fine-grained we want the different parts of our simulation to be.\n"
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "goals":[
+      "Grid-based fluid simulation for our underlying fluid\n",
+      "A way to visualize the flow of that fluid\n",
+      "Particle system that allows us to define different parameters for different types of particles. At the very minimum, this should include some sense of mass or density to determine the force of gravity.",
+      "Cellular automata that allows different particle types to interact with each other, as well as with the underlying fluid. At minimum, this should include at least two particle types, eg. powder and fire.",
+      "game should be capable of running in real time, say, at least 30 FPS"
+    ],
+    "schedule":[
+      {
+        "time":"Week of 4/7-4/12",
+        "goals": ["Brainstorm/Game Design\n", "Research on the technical details of the project"]
+      },
+      {
+        "time":"Week of 4/13-4/19",
+        "goals": ["Implement a Minimal Viable Product:\n", "1. The player should be able to create particles \n",
+        "2. The game should visualize the physics acting on the particles in real-time\n",
+        "3. The game should include at least one type of particle\n"]
+      },
+      {
+        "time":"Week of 4/20-4/26",
+        "goals": ["Add at least one more type of particles\n", "Define the interactions between these particles",
+          "The game should have a clean user interface that shows the user which actions are available\n"]
+      },
+      {
+        "time":"Week of 4/27-5/3",
+        "goals": ["Continue to add more particles and interactions","Optimize the runtime through code refactoring and parallelism"]
+      },
+      {
+        "time":"Week of 5/4-5/10",
+        "goals": ["Wrap up", "Start to write reports\n"]
+      }
+    ],
+    "resource": [
+      {
+        "category": "Tools",
+        "item": ["OpenGL/WebGL (rendering)","Visual Studio for Windows; XCode for MacOS","C++(OpenGL)/JavaScript(WebGL)\n"]
+      },
+      {
+        "category": "References",
+        "item": ["An OpenGL Tutorial on how to render 2D particles: https://learnopengl.com/In-Practice/2D-Game/Particles",
+          "Particle Simulation using CUDA (GPU Parallelism): http://developer.download.nvidia.com/assets/cuda/files/particles.pdf"]
+      }
+    ]
+  }
+}
