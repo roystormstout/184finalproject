@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5facb584.chunk.css",
-    "main.js": "/static/js/main.59c99ded.chunk.js",
-    "main.js.map": "/static/js/main.59c99ded.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.44fca7ab.js",
-    "runtime-main.js.map": "/static/js/runtime-main.44fca7ab.js.map",
-    "static/js/2.da619911.chunk.js": "/static/js/2.da619911.chunk.js",
-    "static/js/2.da619911.chunk.js.map": "/static/js/2.da619911.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5b3e18f2573ea4b6e3081a6ea6d24956.js": "/precache-manifest.5b3e18f2573ea4b6e3081a6ea6d24956.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5facb584.chunk.css.map": "/static/css/main.5facb584.chunk.css.map",
-    "static/js/2.da619911.chunk.js.LICENSE.txt": "/static/js/2.da619911.chunk.js.LICENSE.txt"
+    "main.css": "https://roystormtstout.github.io/184finalproject /static/css/main.5facb584.chunk.css",
+    "main.js": "https://roystormtstout.github.io/184finalproject /static/js/main.e29e5ed3.chunk.js",
+    "main.js.map": "https://roystormtstout.github.io/184finalproject /static/js/main.e29e5ed3.chunk.js.map",
+    "runtime-main.js": "https://roystormtstout.github.io/184finalproject /static/js/runtime-main.74ff728c.js",
+    "runtime-main.js.map": "https://roystormtstout.github.io/184finalproject /static/js/runtime-main.74ff728c.js.map",
+    "static/js/2.da619911.chunk.js": "https://roystormtstout.github.io/184finalproject /static/js/2.da619911.chunk.js",
+    "static/js/2.da619911.chunk.js.map": "https://roystormtstout.github.io/184finalproject /static/js/2.da619911.chunk.js.map",
+    "index.html": "https://roystormtstout.github.io/184finalproject /index.html",
+    "precache-manifest.75616a488e4b7730d38dedda7ace2678.js": "https://roystormtstout.github.io/184finalproject /precache-manifest.75616a488e4b7730d38dedda7ace2678.js",
+    "service-worker.js": "https://roystormtstout.github.io/184finalproject /service-worker.js",
+    "static/css/main.5facb584.chunk.css.map": "https://roystormtstout.github.io/184finalproject /static/css/main.5facb584.chunk.css.map",
+    "static/js/2.da619911.chunk.js.LICENSE.txt": "https://roystormtstout.github.io/184finalproject /static/js/2.da619911.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.44fca7ab.js",
+    "static/js/runtime-main.74ff728c.js",
     "static/js/2.da619911.chunk.js",
     "static/css/main.5facb584.chunk.css",
-    "static/js/main.59c99ded.chunk.js"
+    "static/js/main.e29e5ed3.chunk.js"
   ]
 }
