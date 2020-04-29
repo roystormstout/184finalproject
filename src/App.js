@@ -7,6 +7,7 @@ import About from './Components/About';
 import Goals from './Components/Goals';
 import Schedule from './Components/Schedule';
 import Resources from  './Components/Resources';
+import Milestone from "./Components/Milestone";
 
 class App extends Component {
 
@@ -24,7 +25,7 @@ class App extends Component {
 
   getResumeData(){
     $.ajax({
-      url:'/resumeData.json',
+      url:'https://ultroy.com/184finalproject/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
@@ -49,6 +50,7 @@ class App extends Component {
         <Goals data={this.state.resumeData.resume}/>
         <Schedule data={this.state.resumeData.resume}/>
         <Resources data={this.state.resumeData.resume}/>
+        <Milestone />
       </div>
     );
   }

@@ -23,6 +23,7 @@ class Header extends Component {
 	         <li><a className="smoothscroll" href="#goals">Goals</a></li>
              <li><a className="smoothscroll" href="#schedule">Schedule</a></li>
              <li><a className="smoothscroll" href="#resources">Resources</a></li>
+             <li><a className="smoothscroll" href="#milestone">Milestone</a></li>
          </ul>
 
       </nav>

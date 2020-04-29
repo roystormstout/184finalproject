@@ -19,23 +19,15 @@
     ],
     "schedule":[
       {
-        "time":"Week of 4/7-4/12",
-        "goals": ["Brainstorm/Game Design\n", "Research on the technical details of the project"]
-      },
-      {
-        "time":"Week of 4/13-4/19",
-        "goals": ["Implement a Minimal Viable Product:\n", "1. The player should be able to create particles \n",
-        "2. The game should visualize the physics acting on the particles in real-time\n",
-        "3. The game should include at least one type of particle\n"]
-      },
-      {
-        "time":"Week of 4/20-4/26",
-        "goals": ["Add at least one more type of particles\n", "Define the interactions between these particles",
-          "The game should have a clean user interface that shows the user which actions are available\n"]
+        "time":"4/7-4/28",
+        "goals": ["Brainstorm/Game Design\n", "Research on the technical details of the project","Implement a Minimal Viable Product:\n", "1. The player should be able to create particles \n",
+          "2. The game should visualize the physics acting on the particles in real-time\n",
+          "3. The game should include at least one type of particle\n"]
       },
       {
         "time":"Week of 4/27-5/3",
-        "goals": ["Continue to add more particles and interactions","Optimize the runtime through code refactoring and parallelism"]
+        "goals": ["Add at least one more type of particles\n", "Define the interactions between these particles",
+          "The game should have a clean user interface that shows the user which actions are available\n","Optimize the runtime through code refactoring and parallelism"]
       },
       {
         "time":"Week of 5/4-5/10",
