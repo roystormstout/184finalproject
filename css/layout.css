@@ -381,6 +381,7 @@ ul#nav li.current a { color: #F06000; }
 #milestone  {
    background: #fff;
    padding-top: 90px;
+   padding-bottom: 90px;
    overflow: hidden;
 }
 
